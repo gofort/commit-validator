@@ -1,0 +1,8 @@
+name: Commit Validator
+description: Validates commit messages for Jira ticket compliance.
+permissions:
+  contents: read
+  checks: write
+  pull_requests: write
+events:
+  - push
